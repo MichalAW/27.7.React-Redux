@@ -1,2 +1,1 @@
-# 27.7.Store
-React i Redux
+# 27.7.React-Redux
