@@ -1,7 +1,7 @@
 // example file actions.js
 const ADD_COMMENT = 'ADD_COMMENT';
-const THUMB_UP_COMMENT = 'THUMB_UP_COMMENT'
-const THUMB_DOWN_COMMENT = 'THUMB_DOWN_COMMENT'
+const THUMB_UP_COMMENT = 'THUMB_UP_COMMENT';
+const THUMB_DOWN_COMMENT = 'THUMB_DOWN_COMMENT';
 
 function addComment(text) {
     return {
@@ -20,7 +20,7 @@ function thumbUpComment(commentId) {
 
 function thumbDownComment(commentId) {
     return {
-        type: THUMB_UP_COMMENT,
+        type: THUMB_DOWN_COMMENT,
         id: commentId
     }
 }
