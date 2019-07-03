@@ -4,7 +4,7 @@ import {
     THUMB_DOWN_COMMENT
 } from './actions.js';
 // example file comments.js
-function comments(state = [], action) {
+export default function comments(state = [], action) {
     switch(action.type) {
         case ADD_COMMENT:
             return [{
@@ -19,7 +19,7 @@ function comments(state = [], action) {
                     return {...comment, votes: comment.votes + 1}
                 }
             return comment;
-            }),
+            });
         case THUMB_DOWN_COMMENT:
             return state.map(comment => {
                 if(comment.id === action.id) {
