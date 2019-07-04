@@ -1,5 +1,5 @@
 // example file actions.js
-import uuid from uuid;
+import uuid from 'uuid';
 
 export const ADD_COMMENT = 'ADD_COMMENT';
 export const THUMB_UP_COMMENT = 'THUMB_UP_COMMENT';
@@ -27,11 +27,11 @@ export function thumbDownComment(commentId) {
     }
 }
 
-export THUMB_UP_COMMENT;
-export thumbUpComment;
+export default THUMB_UP_COMMENT;
+export default thumbUpComment;
 
-export THUMB_DOWN_COMMENT;
-export thumbDownComment;
+export default THUMB_DOWN_COMMENT;
+export default thumbDownComment;
 
-export ADD_COMMENT;
-export addComment;
+export default ADD_COMMENT;
+export default addComment;
