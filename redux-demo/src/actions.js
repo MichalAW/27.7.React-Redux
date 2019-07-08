@@ -27,11 +27,11 @@ export function thumbDownComment(commentId) {
     }
 }
 
-export default THUMB_UP_COMMENT;
-export default thumbUpComment;
+export THUMB_UP_COMMENT;
+export thumbUpComment;
 
-export default THUMB_DOWN_COMMENT;
-export default thumbDownComment;
+export THUMB_DOWN_COMMENT;
+export thumbDownComment;
 
-export default ADD_COMMENT;
-export default addComment;
+export ADD_COMMENT;
+export addComment;
