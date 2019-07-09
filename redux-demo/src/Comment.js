@@ -2,12 +2,13 @@ import React from 'react';
 
 const Comment = ({text, votes, id, thumbUpComment, thumbDownComment}) =>
     <div>
-        <li>
-            {text} <span>votes: {votes}</span> <button onClick={() => thumbUpComment(id)}>Thumb up</button>
-        </li>
-        <li>
-            {text} <span>votes: {votes}</span> <button onClick={() => thumbDownComment(id)}>Thumb down</button>
-        </li>;
+        {text} <span>votes: {votes}</span>
+        <ul>
+            <li>
+                <button onClick={() => thumbUpComment(id)}>Thumb up</button>
+                <button onClick={() => thumbDownComment(id)}>Thumb down</button>
+            </li>
+        </ul>
     </div>
     
 export default Comment;

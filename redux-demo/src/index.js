@@ -5,7 +5,7 @@ import App from './App';
 import * as serviceWorker from './serviceWorker';
 import { createStore } from 'redux';
 import { Provider } from 'react-redux';
-import addComment from 'addComment';
+import { addComment } from './actions';
 import reducer from './reducer';
 
 
@@ -13,7 +13,7 @@ const store = createStore(reducer);
 
 ReactDOM.render(
     <Provider store={store}>
-        <App />
+        <App/>
     </Provider>,
   document.getElementById('root')
 );
