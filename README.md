@@ -1,4 +1,4 @@
-## Desription
+## Description
 
 This app is for practice and learn architectural patterns that create advanced web applications.
 I've combined React and Redux and separate the application status into one place
